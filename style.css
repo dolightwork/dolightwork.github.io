@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+body {
+	background: linear-gradient(-45deg, #ACCBE1, #4F6D7A, #C5EDAC, #EDBFC6);
+	background-size: 400% 400%;
+	animation: gradient 50s ease infinite;
+	height: 100vh;
+
+    font-family: 'Cabin', sans-serif;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    text-decoration: underline;
+}
